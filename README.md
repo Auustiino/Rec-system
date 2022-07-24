@@ -9,3 +9,20 @@ Data was pulled from the grouplens movielens data base, a non-commercial movie r
 
 ## Modeling 
 6 Different Models were trained and evaluated with SVD++ outperforming all others
+
+<img src = 'Report/recc-sys-base-cv.png' alt = 'MAE' height = '400' width = '600'>
+
+## Metrics
+The tuned model was able to achieve a Mean Absolute Error of 0.64
+<img src = 'Report/MAE.png' alt = 'MAE' height = '400' width = '600'>
+with a pearson correlation of 0.59 between predicted and actual ratings
+<img src = 'Report/Pearson-corr.png' alt = 'Pearson Correlation' height = '400' width = '600'>
+
+## Recommendation Examples
+Example using a movie title input
+<img src = 'Report/title-in-1.png' alt = 'rec1' height = '' width = ''>
+And an example using user inputted ratings
+Ratings:
+<img src = 'Report/rated-movies.png' alt = 'ratings' height = '' width = ''>
+Recommendations:
+<img src = 'Report/rec-from-rating.png' alt = 'rec2' height = '' width = ''>
